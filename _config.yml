@@ -1,15 +1,15 @@
 # Site
-title: GitGood
+title: AngelX
 bio: "Become a real software engineer."
-description: "GitGood is a course to help you become a real software engineer."
+description: "AngelX is a course to help you become a real software engineer."
 reading_time: true
 words_per_minute: 200
 logo: "assets/img/angel.gif"
 background: "assets/img/stars.jpeg"
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: en_US
-url: http://127.0.0.1:4000
-# url: https://missAliceX.github.io/GitGood
+# url: http://127.0.0.1:4000
+url: https://missAliceX.github.io/AngelX
 
 # Jekyll
 permalink: /:title/
