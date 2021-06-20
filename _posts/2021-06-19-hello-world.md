@@ -25,7 +25,7 @@ This is where you can type out your code. You can use anything you like.
 
 ## Workspace
 
-1. Create a workspace for all yours projects.
+1. Create a folder for all yours projects.
 1. [Download the project folder](https://github.com/missAliceX/particle-simulator/archive/refs/heads/master.zip)
 1. Unzip the file into a folder.
 
