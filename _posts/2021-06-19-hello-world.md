@@ -10,7 +10,7 @@ comments: false
 # Let's build a Particle Simulator
 
 <figure>
-	<a href="{{ site.url }}/assets/img/pikachu.png"><img src="{{ site.url }}/assets/img/pikachu.png"></a>
+	<a href="{{ site.url }}{{ site.url }}/assets/img/pikachu.png"><img src="{{ site.url }}{{ site.url }}/assets/img/pikachu.png"></a>
 	<figcaption>This is your face. Seriously, you are capable of a lot more than you think. Let's get started.</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Open said project in your code editor. You will notice folders ending with `-sol
 Let's check out what we should get after we solve the challenge by opening `particle-simulator/1-solution/index.html` in your browser:
 
 <figure>
-	<a href="/assets/img/projects/particle-simulator/1.png"><img src="/assets/img/projects/particle-simulator/1.png"></a>
+	<a href="{{ site.url }}/assets/img/projects/particle-simulator/1.png"><img src="{{ site.url }}/assets/img/projects/particle-simulator/1.png"></a>
 	<figcaption>A blue dot on the screen. Not very impressive.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ draw(); // This runs the draw() function
 What's so hard about this? Nothing, actually, you just do the same thing but notice what changed. We now have `utils.js` and `circle.js`. Let's just try looking at the solution in the browser again `particle-simulator/2-solution/index.html`.
 
 <figure>
-	<a href="/assets/img/projects/particle-simulator/2-err.png"><img src="/assets/img/projects/particle-simulator/2-err.png"></a>
+	<a href="{{ site.url }}/assets/img/projects/particle-simulator/2-err.png"><img src="{{ site.url }}/assets/img/projects/particle-simulator/2-err.png"></a>
 	<figcaption>Nothing! Oh, but I see an error in the inspector console.</figcaption>
 </figure>
 
@@ -113,7 +113,7 @@ Dang... Better fix the bug so you can at least see the solution.
 ## Challenege 2.1: Fix Bug
 
 <figure>
-	<a href="/assets/img/projects/particle-simulator/2.png"><img src="/assets/img/projects/particle-simulator/2.png"></a>
+	<a href="{{ site.url }}/assets/img/projects/particle-simulator/2.png"><img src="{{ site.url }}/assets/img/projects/particle-simulator/2.png"></a>
 	<figcaption>Okay. Looks like it works now.</figcaption>
 </figure>
 
@@ -182,7 +182,7 @@ Play with the `objs` array and see if you can draw more circles with different c
 ## Challenege 3: Move the Circles around
 
 <figure>
-	<a href="/assets/img/projects/particle-simulator/3.gif"><img src="/assets/img/projects/particle-simulator/3.gif"></a>
+	<a href="{{ site.url }}/assets/img/projects/particle-simulator/3.gif"><img src="{{ site.url }}/assets/img/projects/particle-simulator/3.gif"></a>
 	<figcaption>You get the drill.</figcaption>
 </figure>
 
@@ -194,7 +194,7 @@ We have now transformed our `index.js` code into a class as well. Look at the co
 ## Challenege 4: Make circles bounce off wall
 
 <figure>
-	<a href="/assets/img/projects/particle-simulator/4.gif"><img src="/assets/img/projects/particle-simulator/4.gif"></a>
+	<a href="{{ site.url }}/assets/img/projects/particle-simulator/4.gif"><img src="{{ site.url }}/assets/img/projects/particle-simulator/4.gif"></a>
 	<figcaption>Bonk. Bonk. Bonk.</figcaption>
 </figure>
 
@@ -217,7 +217,7 @@ You now have to write a collision algorithm. If this is your first time, congrat
 ## Challenege 5: Click click click click
 
 <figure>
-	<a href="/assets/img/projects/particle-simulator/5.gif"><img src="/assets/img/projects/particle-simulator/5.gif"></a>
+	<a href="{{ site.url }}/assets/img/projects/particle-simulator/5.gif"><img src="{{ site.url }}/assets/img/projects/particle-simulator/5.gif"></a>
 	<figcaption>Rainbow!</figcaption>
 </figure>
 
