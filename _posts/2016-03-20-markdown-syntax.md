@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Markdown Syntax"
-date:   2016-03-15
+title: "Markdown Syntax"
+date: 2016-03-15
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 tag:
-- markdown 
-- syntax
-- sample
-- test
-- jekyll
-comments: true
+  - markdown
+  - syntax
+  - sample
+  - test
+  - jekyll
+comments: false
 ---
 
 ## HTML Elements
@@ -35,7 +35,7 @@ Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nulla
 ![Smithsonian Image](https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg)
 {: .image-right}
 
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+_This is emphasized_. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
 HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
 
@@ -55,30 +55,31 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 
 ### Unordered Lists
 
-* Item one
-* Item two
-* Item three
+- Item one
+- Item two
+- Item three
 
 ## Tables
 
 | Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| :------ | :-----: | ------: |
+| cell1   |  cell2  |   cell3 |
+| cell4   |  cell5  |   cell6 |
+
 |----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| cell1 | cell2 | cell3 |
+| cell4 | cell5 | cell6 |
 |=====
-| Foot1   | Foot2   | Foot3
+| Foot1 | Foot2 | Foot3
 {: rules="groups"}
 
 ## Code Snippets
 
 {% highlight css %}
 #container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
+float: left;
+margin: 0 -240px 0 0;
+width: 100%;
 }
 {% endhighlight %}
 

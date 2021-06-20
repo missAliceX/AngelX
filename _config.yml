@@ -1,14 +1,15 @@
 # Site
-title: Moon
-bio: "Minimal, one column jekyll theme."
-description: "Moon is a minimal, one column jekyll theme for your blog."
+title: GitGood
+bio: "Become a real software engineer."
+description: "GitGood is a course to help you become a real software engineer."
 reading_time: true
 words_per_minute: 200
-logo: "assets/img/logo.png"
-background: "assets/img/placeholder-big.jpg"
+logo: "assets/img/angel.gif"
+background: "assets/img/stars.jpeg"
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: en_US
-url: https://missAliceX.github.io/GitGood
+url: http://127.0.0.1:4000
+# url: https://missAliceX.github.io/GitGood
 
 # Jekyll
 permalink: /:title/
@@ -26,18 +27,18 @@ sass:
   style: compressed
 
 # Comments
-disqus_shortname: taylantatli
+disqus_shortname: missAliceX
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
-#plus:            #username
-#analytics:
-#verify:
-#ad-client:
-#ad-slot:
-#bing-verify:
-#email:
+# google:
+# plus:              username
+# analytics:
+# verify:
+# ad-client:
+# ad-slot:
+# bing-verify:
+# email:
 # twitter: username
 # facebook: username
 # github-url: username
