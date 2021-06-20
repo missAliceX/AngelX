@@ -34,4 +34,4 @@ Do you know what you like before trying it? Don't think so. Through these projec
 
 Generally, employers believe in college education but less so in software engineering and they definitely do not prefer bootcamp. You will not know how they hire unless there is a public announcement from the company, like Tesla. Do not waste too much time researching about the company before an interview. You want to anchor your life on your skills, not your employer. You can build skill here for free so why bother paying for college or bootcamps?
 
-<div markdown="0" class="bot-nav"><a href="/hello-world" class="btn">Start Learning</a></div>
+<div markdown="0" class="bot-nav"><a href="{{ site.url }}/hello-world" class="btn">Start Learning</a></div>

@@ -10,7 +10,7 @@ comments: false
 # Let's build a Particle Simulator
 
 <figure>
-	<a href="{{ site.url }}{{ site.url }}/assets/img/pikachu.png"><img src="{{ site.url }}{{ site.url }}/assets/img/pikachu.png"></a>
+	<a href="{{ site.url }}/assets/img/pikachu.png"><img src="{{ site.url }}/assets/img/pikachu.png"></a>
 	<figcaption>This is your face. Seriously, you are capable of a lot more than you think. Let's get started.</figcaption>
 </figure>
 
