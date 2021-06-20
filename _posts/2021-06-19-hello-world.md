@@ -23,26 +23,11 @@ This is where you can type out your code. You can use anything you like.
 - [VS Code](https://code.visualstudio.com/) is generally used at the workplace.
 - I personally like and use [Atom](https://atom.io/) at work.
 
-## Version Control
-
-Version control is the way the manage the changes not just in your code, but in others' as well. You should use GitHub for version control.
-
-- Download the [GitHub Desktop](https://desktop.github.com/) version to make your life easier.
-
 ## Workspace
 
-Open terminal on your computer and create a workspace for all yours projects:
-
-```
-mkdir workspace
-cd workspace
-```
-
-Download the project folder so you can work start gnawing at it:
-
-```
-git clone https://github.com/missAliceX/particle-simulator
-```
+1. Create a workspace for all yours projects.
+1. [Download the project folder](https://github.com/missAliceX/particle-simulator/archive/refs/heads/master.zip)
+1. Unzip the file into a folder.
 
 # Make a particle simulator
 
