@@ -238,5 +238,5 @@ Congratulations! You have just done something from start to finish. In the proce
 
 <div markdown="0" class="bot-nav">
   <a href="javascript:history.back()" class="btn">Back</a>
-  <a href="/agar-io" class="btn">Assignment: Recreate Agar.IO</a>
+  <a href="{{ site.url }}/agar-io" class="btn">Assignment: Recreate Agar.IO</a>
 </div>
