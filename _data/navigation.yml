@@ -1,12 +1,19 @@
 # Site navigation links
 
-- title: 1. Hello World
-  url: /hello-world/
-- title: 2. Micro Service
-  url: /micro-service/
-- title: 3. Web Application
-  url: /web-application/
-- title: 4. Development Pipeline
-  url: /development-pipeline/
-- title: 5. Cluster Operations
-  url: /cluster-operations/
+- title: Hello World
+  items:
+    - title: Particle Simulator
+      url: /particle-simulator/
+    - title: Agar.IO
+      url: /agar-io/
+# - title: Web Application
+#   items:
+#     - title:
+# - title: Web Application
+#   url: /web-application/
+# - title: Micro Service
+#   url: /micro-service/
+# - title: Development Pipeline
+#   url: /development-pipeline/
+# - title: Cluster Operations
+#   url: /cluster-operations/
