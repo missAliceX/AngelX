@@ -8,8 +8,8 @@ logo: "assets/img/angel.gif"
 background: "assets/img/stars.jpeg"
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: en_US
-# url: http://127.0.0.1:4000
-url: https://missAliceX.github.io/AngelX
+url: http://127.0.0.1:4000
+# url: https://missAliceX.github.io/AngelX
 
 # Jekyll
 permalink: /:title/
@@ -27,7 +27,7 @@ sass:
   style: compressed
 
 # Comments
-disqus_shortname: missAliceX
+# disqus_shortname: missAliceX
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -38,10 +38,10 @@ disqus_shortname: missAliceX
 # ad-client:
 # ad-slot:
 # bing-verify:
-# email:
+email: miss.alice.x@gmail.com
 # twitter: username
 # facebook: username
-# github-url: username
+github-url: missAliceX
 # stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 # linkedin:          username
 # xing:              username
