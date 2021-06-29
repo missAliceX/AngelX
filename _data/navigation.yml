@@ -1,14 +1,15 @@
 # Site navigation links
 
-- title: Hello World
+- title: 1. Get Started
   items:
-    - title: Particle Simulator
+    - title: 1. Particle Simulator
       url: /particle-simulator/
-    - title: Agar.IO
+    - title: 2. Agar.IO
       url: /agar-io/
-# - title: Web Application
-#   items:
-#     - title:
+- title: 2. Alice Brigade
+  items:
+    - title: 1. Web Application
+      url: /web-app/
 # - title: Web Application
 #   url: /web-application/
 # - title: Micro Service
