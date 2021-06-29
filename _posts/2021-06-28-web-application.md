@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Alice Brigade"
+title: "Web Application"
 date: 2021-06-28
 excerpt: "Let's build a social network."
 tag:
