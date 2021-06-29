@@ -15,7 +15,7 @@ If you want to get that Silicone Valley SWE pay, work with smart people or build
 Generally, employers believe in college education, especially larger companies, but less so in software engineering. You will know from reading their job description and benefits what kind of employer they are. Some are more receptive to bootcamps. Moreover, you want to anchor your life on your skills, not your employer. You can build real experiences and skills here for free so why bother paying for college or online degrees?
 
 - You will have a **project running live** on your portfolio
-- Call it **1-2 years of experience** on your resume.
+- Call it **1 year of experience** on your resume (to get into the door).
 - Most bootcamps and colleges typically focus on forgettable trivia instead of real life skills.
 - The author works as a full-time employee at a FAANG company.
 - This is **free**, duh.
