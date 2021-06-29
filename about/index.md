@@ -8,7 +8,7 @@ comments: false
 
 # A Free 12-Week Collaborative Bootcamp
 
-If you want to get that Silicone Valley pay grade (USD \$100k+/yr), work with smart people or build cool things, follow along. I will help you become well rounded and help you make informed decisions on specialization. Buckle up and join me in this tech journey!
+If you want to get that Silicone Valley SWE pay, work with smart people or build cool things, follow along. I will help you become well rounded and help you make informed decisions on what paths you want to take. Buckle up!
 
 ## Why not just online degrees or college?
 
