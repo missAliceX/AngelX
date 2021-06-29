@@ -40,7 +40,6 @@ Do you know what you like before trying it? Don't think so. Through these projec
 - Fullstack Engineer
 - Data Engineer/Scientist
 - Development Security Operations (DevOps)
-- UX Designer
 
 ## Interview Preparation
 

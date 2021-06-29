@@ -6,15 +6,66 @@
       url: /particle-simulator/
     - title: 2. Agar.IO
       url: /agar-io/
-- title: 2. Alice Brigade
+
+- title: 2. Core Skills
   items:
     - title: 1. Web Application
-      url: /web-app/
-# - title: Web Application
-#   url: /web-application/
-# - title: Micro Service
-#   url: /micro-service/
-# - title: Development Pipeline
-#   url: /development-pipeline/
-# - title: Cluster Operations
-#   url: /cluster-operations/
+      url: /web-application/
+    - title: 2. Micro Service
+      url: /micro-service/
+    - title: 3. Integration and Deployment
+      url: /integration-and-deployment/
+
+- title: 3. Front-end Electives
+  items:
+    - title: Design Principles # Color Theory, Composition, Simplicity, Figma
+      url: /design-principles/
+    - title: API Data Query # GraphQL - want to build web apps?
+      url: /api-data-query/
+    - title: Mobile Development # Ionic React - want to build mobile apps?
+      url: /mobile-development/
+
+- title: 3. Back-end Electives
+  items:
+    - title: Distributed Systems # Kafka
+      url: /distributed-systems/
+    - title: Distributed Data Stores # Cassandra
+      url: /distributed-data-stores/
+    - title: Performance # Benchmarks
+      url: /performance/
+
+- title: 3. Data Science Electives
+  items:
+    - title: Data Pipeline # Spark
+      url: /data-pipeline/
+    - title: Trend Prediction # Stock stuff
+      url: /trend-prediction/
+    - title: Classification # Classification, overfitting
+      url: /classification/
+
+- title: 3. DevOps Electives
+  items:
+    - title: Metrics # Grafana
+      url: /metrics/
+    - title: Secrets Management # Vault
+      url: /secrets-management/
+    - title: Exploitation # CTF easter egg
+      url: /exploitation/
+
+- title: 4. Capstone Project
+  items:
+    - title: Capstone Project
+      url: /capstone-project/
+
+- title: 5. Interview Prep
+  items:
+    - title: Take Home Exercise
+      url: /take-home-exercise/
+    - title: White-board Exercise
+      url: /white-board-exercise/
+    - title: Architecture
+      url: /architecture/
+    - title: Negotiation
+      url: /negotiation/
+    - title: Pitfalls and Red Flags
+      url: /pitfalls-and-red-flags/
