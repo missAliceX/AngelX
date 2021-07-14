@@ -82,3 +82,5 @@ Display the following information for a project:
 Create a back button which will return to the _Project Listing Page_ when clicked.
 
 # Tutorial
+
+Let's help you get set up with React.
