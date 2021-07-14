@@ -9,6 +9,8 @@
 
 - title: 2. Core Skills
   items:
+    - title: 0. The Idea
+      url: /the-idea/
     - title: 1. Web Application
       url: /web-application/
     - title: 2. Micro Service
