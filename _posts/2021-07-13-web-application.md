@@ -27,7 +27,6 @@ We will learn to build a web application by doing. The principles you learned fr
 
 - Create a project proposal page
 - Create project listing page
-- Create a project details page
 - Integrate the functionality of these pages
 
 ## Non-Goals
@@ -37,35 +36,36 @@ We will learn to build a web application by doing. The principles you learned fr
 
 ## Plan
 
-We will use React to create the web application using the principles of component design. Design the page based on this [mock-up](https://www.figma.com/file/elCdGNnjq9l8ESs43WmNSM/lifepath.ai?node-id=0%3A1).
+We will use React to create the web application using the principles of component design. Design the page based on a mock-up.
 
-### Project Proposal Page
+### Project Proposal Page ([Mock Up](https://www.figma.com/file/elCdGNnjq9l8ESs43WmNSM/lifepath.ai?node-id=13%3A11))
 
 Allows users to propose a project with the following details. All fields are required unless specified:
 
-- Project Name
-- Tagline
-- Problem Statements (list of text)
-- Potential Solutions (list, votable)
-- Tags (list of relevant topics, at least one required)
-- Cover image link (not required)
-- Video link (not required)
+- Project Name (single input)
+- Tagline (single input)
+- Problem Statements (input list)
+- Potential Solutions (input list)
+- Tags (input list, item is removable)
+- Cover image link (single input, not required)
+- Video link (single input, not required)
 
 Create a back button which will lead to the _Project Listing Page_ when clicked.
 
-### Project Listing Page
+### Project Listing Page ([Mock Up](https://www.figma.com/file/elCdGNnjq9l8ESs43WmNSM/lifepath.ai?node-id=34%3A167))
 
-Display a list of projects with the following basic details and opens its _Project Details Page_ when clicked:
+Display a list of projects with the following basic details:
 
 - Project Name
+- Project Stage
 - Tagline
 - Cover Image
-- Up and down vote button
-- View count
+- View Count
+- Activities Count
 
-Create a project proposal button which will lead to the _Project Proposal Page_ when clicked.
+Create a create project button which will lead to the _Project Proposal Page_ when clicked.
 
-### Project Details Page
+### Project Details Page ([Mock Up](https://www.figma.com/file/elCdGNnjq9l8ESs43WmNSM/lifepath.ai?node-id=86%3A536))
 
 Display the following information for a project:
 
@@ -78,8 +78,6 @@ Display the following information for a project:
 - Problem Statements
 - Potential Solutions
 - Tags
-
-Create a back button which will return to the _Project Listing Page_ when clicked.
 
 # Tutorial
 
