@@ -44,13 +44,13 @@ Allows users to propose a project with the following details. All fields are req
 
 - Project Name (single input)
 - Tagline (single input)
-- Problem Statements (input list)
-- Potential Solutions (input list)
-- Tags (input list, item is removable)
-- Cover image link (single input, not required)
-- Video link (single input, not required)
+- Problem Statements (input list, at least one required)
+- Potential Solutions (input list, at least one required)
+- Tags (input list, at least one required)
+- Cover image link (single input, has preview, not required to propose project)
 
-Create a back button which will lead to the _Project Listing Page_ when clicked.
+Create a cancel button which will lead to the _Project Listing Page_ when clicked.
+Create a propose button which will send project proposal to the server when clicked.
 
 ### Project Listing Page ([Mock Up](https://www.figma.com/file/elCdGNnjq9l8ESs43WmNSM/crowd-funding-app?node-id=34%3A167))
 
@@ -227,13 +227,39 @@ Instructions:
 1. Do it.
 1. You can now return to `master` branch.
 
+### Acceptance Criteria
+
+- Unit tests pass: `npm test`
+- QA: Run the app to see that the navbar behaves like it does on master branch
+
 ## Challenge 3: Complete the Project Proposal Page
 
 At this point, you practiced creating your own `<Input />` component and earned the right to use it. Continue implementing the `Project Proposal Page`; it should be a breeze up to the "Tags" section.
 
 ### Reacting to a User Event
 
-When implementing "Cover Image URL" and "Intro Video URL", you will need to learn how to create another element after the user paste in a URL. Let's look back to the steps in Challenge 1 and apply it to this scenario. The `<InputList />` component can already create another element after user enters text. Can we use similar code to add a `previewImage` and `previewVideo` feature to the `<Input />` component? You may find it helpful to be able to [embed YouTube videos](https://www.w3schools.com/html/html_youtube.asp).
+When implementing "Cover Image URL", you will need to learn how to create a new element after the user paste in a URL. Let's look back to the steps in Challenge 1 and apply it to this scenario. The `<InputList />` component can already create a new element after user enters text. We can use the same approach to add a `previewImage` feature to the `<Input />` component.
+
+### Collecting Data from a Form
+
+When packaging the data for the server, the popular option is [`useForm`](https://react-hook-form.com/api/useform). This does not work with our styled functional components because it uses `ref` so I decided to write a simple module that replaces `useForm`. You can see it in `hooks/form.js`. Essentially, it collects values from inputs using the `name` attribute which automatically goes through all inputs in the given form without explicitly specified making it much less cluttered.
+
+### Interacting with a Server
+
+In real life, the website will sometimes send data to the backend server. To isolate the dependency of a real life server, we employ mock servers. In our case, we are using [Mock Service Worker](https://mswjs.io/). The mock servers have been setup for you. Notice that in the `mocks/` directory, there is both a `browser.js` and `server.js`. When you run `npm start`, it will run the browser mock server and when you run `npm test`, it will run the NodeJS mock server.
+
+These mock servers should respond with success or failure depending on your client requests - the client is the web browser in this case. Additionally, you can store data when processing these mock requests with [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage). In our example, when working on the **Project Listing Page**, we need to retrieve project listings from the mock servers so we need to store the project details when proposing a project.
+
+### Acceptance Criteria
+
+- Add the solutions section
+- Add the tags section
+- Add the cover image section with image preview
+- Implement all unit tests in `pages/project-proposal.test.js`
+- Update mock server to ensure any missing required fields result in a `400 Bad Request` status code
+- (Optional): When proposing a project fails, display a pop-up message to indicate the error instead of just using `console.error(message)`
+- Unit tests pass: `npm test`
+- QA: Run the app, read the console and see that it indicates a `200 OK` status code from the mock server
 
 ## Challenge 4: Complete the Project Listing Page
 
@@ -242,30 +268,45 @@ There are a few more new concepts to learn from creating the Project Listing Pag
 1. Search bar with a plus button which leads to the Project Proposal Page using the `react-router-dom` [`<Link />` component](https://stackoverflow.com/questions/29244731/react-router-how-to-manually-invoke-link).
 1. Create Project Card using the [`<Grid />` component](https://material-ui.com/components/grid/) such that it is **responsive**.
 1. Create the Project Listing Page component and add it to the router in `App.js`
+1. Store data in [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) when proposing a project and retrieve data from it when loading the project listing.
 
-## Challenge 5: Render Project Listing Dynamically
+### Acceptance Criteria
 
-... TODO ...
-
-## Challenge 6: Send New Project to Server
-
-... TODO ...
+- Create the `<SearchBar />` component
+- Create the `<ProjectCard />` component
+- Create the `<ProjectListingPage />` page component
+- Implement all unit tests for each component
+- Update the mock server to incorporate a `GET` request which retrieves all proposed projects
+- Unit tests pass: `npm test`
+- QA: Run the app and see that all previously proposed projects appear on the **Project Listing Page**
+- QA: Clicking on the Plus icon next to the search bar brings us to the **Project Proposal Page**
+- QA: Clicking on cancel or propose (if successful), brings us back to the **Project Listing Page**
 
 # Conclusion
 
-This is a lot of work! Good job... -- me! You have done quite a lot as well. This is everything a front-end engineer from entry-level to mid-level has to know:
+This is a lot of work! Good job... -- me! You have done quite a lot as well. Let's summarize what you have learned.
 
-## Buzzwords
+## Buzzwords Earned
 - [Atomic (modular/component) design](https://bradfrost.com/blog/post/atomic-web-design/)
 - [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
+- [Mocking](https://stackoverflow.com/questions/2665812/what-is-mocking)
+- [Unit Testing](https://www.tutorialspoint.com/software_testing_dictionary/unit_testing.htm)
+- [Browser Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+- [Responsive Design](https://www.w3schools.com/html/html_responsive.asp)
+- [Web Routinig](https://stackoverflow.com/questions/39636411/what-is-routing-why-is-routing-needed-in-single-page-web-apps)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html): useState, useEffect, useHistory, useForm
+- [React Functional/Class Component](https://reactjs.org/docs/components-and-props.html)
+- [Styled Component](https://styled-components.com/docs)
 
 ## Skills Acquired
-- Front-end Unit-testing, Mocking
-- Using a server side REST API
-- Browser Events (clicks, key presses)
-- Responsive Design (media query and Grid)
-- Router (URL and links)
-- React Hooks (useState, useEffect, useHistory)
-- React Component / HTML Rendering
-- Functional Component
-- Styled Component / CSS
+- You can now create your own non-trivial, production-ready, interactive and responsive designs with HTML, Styled Component and SASS/CSS through React.
+- You can create and transition betweens pages using these components.
+- You can send and retrieve data to and from a server on your web application.
+- You can properly test your designs with unit-testing and mock servers.
+
+For most companies, this is most of the things a front-end engineer from entry-level to even a mid-level has to know. In order to be a well rounded engineer, you also need to know what other people do.
+
+<div markdown="0" class="bot-nav">
+  <a href="javascript:history.back()" class="btn">Back</a>
+  <a href="{{ site.url }}/micro-services" class="btn">Next: Micro Services</a>
+</div>

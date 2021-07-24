@@ -13,8 +13,8 @@
       url: /the-idea/
     - title: 1. Web Application
       url: /web-application/
-    - title: 2. Micro Service
-      url: /micro-service/
+    - title: 2. Micro Services
+      url: /micro-services/
     - title: 3. Integration and Deployment
       url: /integration-and-deployment/
 
@@ -22,8 +22,8 @@
   items:
     - title: Design Principles # Color Theory, Composition, Simplicity, Figma
       url: /design-principles/
-    - title: API Data Query # GraphQL - want to build web apps?
-      url: /api-data-query/
+    - title: Graph Data API # GraphQL - want to build web apps?
+      url: /graph-data-api/
     - title: Mobile Development # Ionic React - want to build mobile apps?
       url: /mobile-development/
 
@@ -36,7 +36,7 @@
     - title: Performance # Benchmarks
       url: /performance/
 
-- title: 3. Data Science Electives
+- title: 3. Data Electives
   items:
     - title: Data Pipeline # Spark
       url: /data-pipeline/
