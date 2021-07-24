@@ -197,7 +197,7 @@ Remember to make a new branch and pull request before you commit your code.
 
 ### Tests
 
-Remember to write tests. You are not really a software engineer otherwise. Admittedly, this is my least favorite part of writing code. Some people are crazy enough to write tests first and then implement the code after; this is called **test-driven development** - for the anally retentive.
+Remember to write tests. You are not really a software engineer otherwise. Admittedly, this is my least favorite part of writing code. Some people even like to so much that they write tests first and then implement the code after; this is called **test-driven development**.
 
 To run tests:
 ```
@@ -243,13 +243,17 @@ There are a few more new concepts to learn from creating the Project Listing Pag
 1. Create Project Card using the [`<Grid />` component](https://material-ui.com/components/grid/) such that it is **responsive**.
 1. Create the Project Listing Page component and add it to the router in `App.js`
 
-## Challenge 5: Request and Send Data to a Server
+## Challenge 5: Render Project Listing Dynamically
+
+... TODO ...
+
+## Challenge 6: Send New Project to Server
 
 ... TODO ...
 
 # Conclusion
 
-This is a lot of work! Good job... -- me! You have done quite a lot as well. Here is what you have learned:
+This is a lot of work! Good job... -- me! You have done quite a lot as well. This is everything a front-end engineer from entry-level to mid-level has to know:
 
 ## Buzzwords
 - [Atomic (modular/component) design](https://bradfrost.com/blog/post/atomic-web-design/)
@@ -263,4 +267,5 @@ This is a lot of work! Good job... -- me! You have done quite a lot as well. Her
 - Router (URL and links)
 - React Hooks (useState, useEffect, useHistory)
 - React Component / HTML Rendering
+- Functional Component
 - Styled Component / CSS
