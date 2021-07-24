@@ -21,7 +21,6 @@ comments: false
 This is where you can type out your code. You can use anything you like.
 
 - [VS Code](https://code.visualstudio.com/) is generally used at the workplace.
-- I personally like and use [Atom](https://atom.io/) at work.
 
 ## Workspace
 
