@@ -13,22 +13,26 @@
       url: /the-idea/
     - title: 1. Web Application
       url: /web-application/
-    - title: 2. Micro Service
-      url: /micro-service/
+    - title: 2. Micro Services
+      url: /micro-services/
     - title: 3. Integration and Deployment
       url: /integration-and-deployment/
 
-- title: 3. Front-end Electives
+- title: 3. Front-end
   items:
+    - title: Introduction
+      url: /front-end/introduction
     - title: Design Principles # Color Theory, Composition, Simplicity, Figma
       url: /design-principles/
-    - title: API Data Query # GraphQL - want to build web apps?
-      url: /api-data-query/
+    - title: Graph Data API # GraphQL - want to build web apps?
+      url: /graph-data-api/
     - title: Mobile Development # Ionic React - want to build mobile apps?
       url: /mobile-development/
 
-- title: 3. Back-end Electives
+- title: 3. Back-end
   items:
+    - title: Introduction
+      url: /back-end/introduction
     - title: Distributed Systems # Kafka
       url: /distributed-systems/
     - title: Distributed Data Stores # Cassandra
@@ -36,8 +40,10 @@
     - title: Performance # Benchmarks
       url: /performance/
 
-- title: 3. Data Science Electives
+- title: 3. Data Engineering
   items:
+    - title: Introduction
+      url: /data/introduction
     - title: Data Pipeline # Spark
       url: /data-pipeline/
     - title: Trend Prediction # Stock stuff
@@ -45,8 +51,10 @@
     - title: Classification # Classification, overfitting
       url: /classification/
 
-- title: 3. DevOps Electives
+- title: 3. DevOps
   items:
+    - title: Introduction
+      url: /dev-ops/introduction
     - title: Metrics # Grafana
       url: /metrics/
     - title: Secrets Management # Vault
