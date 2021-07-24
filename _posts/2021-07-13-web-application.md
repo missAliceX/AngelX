@@ -304,7 +304,7 @@ This is a lot of work! Good job... -- me! You have done quite a lot as well. Let
 - You can send and retrieve data to and from a server on your web application.
 - You can properly test your designs with unit-testing and mock servers.
 
-For most companies, this is most of the things a front-end engineer from entry-level to even a mid-level has to know. In order to be a well rounded engineer, you also need to know what other people do.
+For most companies, this is most of the things a front-end engineer from entry-level to even a mid-level has to know. In order to be a well rounded engineer, you also need to know what other people do. For that, you must continue and complete the core skills section.
 
 <div markdown="0" class="bot-nav">
   <a href="javascript:history.back()" class="btn">Back</a>
