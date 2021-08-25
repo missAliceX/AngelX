@@ -11,7 +11,7 @@ comments: false
 
 _Want to see something? Got to build it yourself, sorry._
 
-After this project, you will be pretty much as good as any Joe out there. Yes, we are doing a tech spec again. Get used to it.
+After this project, you will be pretty much as good as any Joey out there. Yes, we are doing a tech spec again. Get used to it.
 
 # Project Pages Tech Spec
 
